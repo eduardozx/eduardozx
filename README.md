@@ -1,33 +1,45 @@
-<h1 align="center">Eduardo santos 👋</h1>
+# 🍽️ Sabor & Arte — Cardápio Digital Interativo
 
-###
+> Sistema Full Stack de cardápio digital moderno para restaurantes, com gerenciamento de produtos e envio automatizado de pedidos diretamente para o WhatsApp do estabelecimento.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="60" alt="mysql logo"  />
-</div>
+---
 
-###
+## 📱 Sobre o Projeto
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/eduardo-dos-santos-silva-382209224/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <a href="https://www.instagram.com/santixx.x77/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-</div>
+O **Sabor & Arte** foi desenvolvido para solucionar a gargalo de atendimento em restaurantes e delivery, oferecendo uma experiência fluida para o cliente final escolher seus produtos e enviar o pedido estruturado diretamente para o atendimento via WhatsApp, sem a necessidade de intermediários ou taxas de plataformas.
 
-###
+### ✨ Principais Funcionalidades
+
+- **Cardápio Interativo:** Listagem dinâmica de produtos com categorias, imagens e preços.
+- **Carrinho de Compras:** Adição/remoção de itens com cálculo automático do valor total.
+- **Integração com WhatsApp:** Geração automática do resumo do pedido formatado com envio direto pelo link da API do WhatsApp.
+- **Painel / API de Gerenciamento:** CRUD completo de produtos e categorias no backend.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### **Frontend**
+- **[React](https://reactjs.org/):** Biblioteca para construção da interface do usuário.
+- **[TypeScript](https://www.typescriptlang.org/):** Tipagem estática para maior segurança no desenvolvimento.
+- **[Tailwind CSS](https://tailwindcss.com/):** Estilização rápida, responsiva e moderna.
+
+### **Backend & Banco de Dados**
+- **[Node.js](https://nodejs.org/):** Ambiente de execução JavaScript no servidor.
+- **[Express](https://expressjs.com/):** Framework para construção da API REST.
+- **[SQLite](https://www.sqlite.org/):** Banco de dados relacional leve para persistência das informações.
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### Pró-requisitos
+Antes de começar, você precisará ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/en/) (Versão LTS recomendada)
+- [Git](https://git-scm.com/)
+
+### 1️⃣ Clonar o Repositório
+
+```bash
+git clone [https://github.com/eduardozx/sabor-arte-menu.git](https://github.com/eduardozx/sabor-arte-menu.git)
+cd sabor-arte-menu
